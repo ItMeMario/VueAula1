@@ -1,0 +1,7 @@
+{
+  "name": "projetoVazio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
