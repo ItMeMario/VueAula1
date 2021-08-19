@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-         <ion-button href="/School">School</ion-button>
+        <ion-title>:D</ion-title>
       </ion-toolbar>
     </ion-header>
     
@@ -14,7 +14,16 @@
       </ion-header>
     
       <div id="container">
-         <ion-button href="/Login">Clica aqui</ion-button>
+     <ion-item>
+    <ion-label>E-mail:</ion-label>
+    <ion-input></ion-input> 
+  </ion-item>
+    <ion-item>
+          <ion-label>Senha:</ion-label>
+          <ion-input  type="password"></ion-input>
+        </ion-item>
+         <ion-button href="/Home">Login</ion-button>
+  
       </div>
     </ion-content>
   </ion-page>

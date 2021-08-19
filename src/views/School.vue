@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-         <ion-button href="/School">School</ion-button>
+        <ion-button href="/Home">Home</ion-button>
       </ion-toolbar>
     </ion-header>
     
@@ -25,7 +25,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Home',
+  name: 'School',
   components: {
     IonContent,
     IonHeader,
