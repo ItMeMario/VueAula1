@@ -3,6 +3,8 @@ import { RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue';
 import School from '../views/School.vue';
 import Login from '../views/Login.vue';
+import calculaidadeinator from '../views/calculaidadeinator.vue';
+
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +26,12 @@ const routes: Array<RouteRecordRaw> = [
     name: 'login',
     component: Login
   },
+  {
+    path: '/calculaidadeinator',
+    name: 'calculaidadeinator',
+    component: calculaidadeinator
+  },
+  
 ]
 
 const router = createRouter({

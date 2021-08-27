@@ -15,7 +15,9 @@
     
       <div id="container">
          <ion-button href="/Login">Clica aqui</ion-button>
+          <ion-button href="/calculaidadeinator">calcula Idadeinator</ion-button>
       </div>
+      
     </ion-content>
   </ion-page>
 </template>
